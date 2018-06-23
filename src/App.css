@@ -1,0 +1,55 @@
+.App{
+    height: auto;
+}
+.Cars{
+    flex: 1;
+    background-color: #d6d6d6;
+    padding: 5%;
+    height: 900px;
+}
+.carListContainer{
+    height: 600px;
+    overflow: scroll;
+}
+.RegisterCar{
+    flex: 1;
+    background-color: #5c8fdb;
+    padding: 5%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.CarInfo{
+    margin: 20px 0px;
+}
+.carName{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+ul.CarInfo li{
+    list-style: none;
+    padding: 2px;
+}
+ul.CarInfo li:not(:first-child){
+    border-bottom: 1px solid #cecece;
+    border-left: 1px solid #cecece;
+}
+ul.CarInfo li span{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px;
+}
+.unitSelect{
+    float: right;
+    height: 34px;
+    width: 180px;
+    border-radius: 0;
+}
+.specs-icon{
+    width: 27px;
+    height: 27px;
+    padding: 3px;
+}
